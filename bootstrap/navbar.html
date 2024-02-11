@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img_avatar1.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Dropdown</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link</a></li>
+                <li><a class="dropdown-item" href="#">Another link</a></li>
+                <li><a class="dropdown-item" href="#">A third link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="BK1.jpg" alt="Los Angeles" class="d-block" style="width:100%" height="600px">
+            <div class="carousel-caption">
+              <h3>BAWADI</h3>
+              <p>RAJASTHAN</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="BK2.jpg" alt="Chicago" class="d-block" style="width:100%"  height="600px">
+            <div class="carousel-caption">
+              <h3>LAL KILLA</h3>
+              <p>DEHLI</p>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="BK3.jpg" alt="New York" class="d-block" style="width:100%"  height="600px">
+            <div class="carousel-caption">
+              <h3>TEMPLE</h3>
+              <p>RAJASTHAN</p>
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      
+      
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+        <div class="container-fluid">
+
+        
+        <div class="row  featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Ashoka the great. <span class="text-muted">At the same time,</span></h2>
+            <p class="lead ">Ashoka also invited Buddhists and non-Buddhists for religious conferences. He inspired the Buddhist monks
+              to compose the sacred religious texts, and also gave all types of help to that end. Ashoka also helped to  develop viharas (intellectual hubs) such as Nalanda and Taxila
+              develop viharas (intellectual hubs) such as Nalanda and Taxila.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="ASHOK-VIRASAT.jpg" alt="Generic placeholder image" width="450PX" height="150PX">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2  text-success">
+            <h2 class="featurette-heading">TO INTRODUCE STUDENTS TO<span class="text-muted">PRITHVIRAJ CHAUHAN.</span></h2>
+            <p class="lead">Prithviraj Chauhan was the Hindu
+              king of Chauhan dynasty in 12th
+              century. He is famous in Indianhistory for his bravery and courage.He was born in 1168 at Ajmer. His father was Someshwar Chauhan, the
+              king of Ajmer and mother was Kamala Devi. Prithviraj Chauhan was a Rajput king who ruled the kingdoms of Ajmer and Delhi in
+              northern India . He was one of the last independent Hindu kings to sit upon the throne of Delhi. He was very brave and intelligent child blessed with sharp military skills. .</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="PrithvirajChauhan.png" alt="Generic placeholder image" width="450PX" height="150PX">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading"> Pratapgarh Kingdom  <span class="text-muted">Kingdom</span></h2>
+            <p class="lead">. Composed of the present-day Indian district of Karimganj, as well as parts of Tripura State and Sylhet, Bangladesh, the kingdom was ruled by a line of Muslim monarchs over
+               a mixed population of Hindu and Islamic adherents. It was bordered by the larger kingdoms of Kachar, Tripura and Bengal..</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="prathap.jpg" alt="Generic placeholder image" width="500PX" height="150PX">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">The Royal Seal of Shivaji Maharaj. <span class="text-muted">. With a firm hold over a fort, .</span></h2>
+              <p class="lead">In the medieval period, forts carried much significance. With a firm hold over a fort,  Under the captainship of Yesaji Kank and Tanaji Malusare and with a force of Mavle infantrymen , he attacked Torna fort [2]. It was an attempt to capture the forts meant to challenge the Adilshahi power. Shivaji Maharaj decided to acquire the forts that were within his jagir.
+                 He captured the forts of Murumbdev (Rajgad), Torna, Kondhana, and Purandar. This laid the foundation of the Swaraj. Shivaji Maharaj was steadily but cautiously aiming at extending and consolidating his power.  It was necessary to bring them under control to found the Swaraj</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="featurette-image img-fluid mx-auto" src="marath.jpg" alt="Generic placeholder image" width="370PX" height="150PX">
+            </div>
+          </div>
+  
+          <hr class="featurette-divider">
+  
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: rgb(250, 229, 158);">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">King</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Samrt Ashok</a>
+              </h3>
+              <div class="mb-1 text-muted">304 - 232 BCE</div>
+              <p class="card-text mb-auto">जवळपास सर्व भारत त्याने एका साम्राज्याच्या छायेत आणला व आपली एकछत्री सत्ता लागू केली.
+                 संपूर्ण हिंदुस्थानात एकछत्री साम्राज्य उभारणार चक्रवर्ती सम्राट म्हणून 
+                अशोकाच्या नावाचा उल्लेख करावा लागतो रोमिला थापर यांनी अशोकाच्या कार्याचा विशेष गौरव  </p>
+              <a href="https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%9F_%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" src="raje3.jpg" width="200PX" height="300PX" alt="Card image cap">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: rgb(250, 229, 158);">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-success">King</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#"> Prithviraj Chauhan</a>
+              </h3>
+              <div class="mb-1 text-muted">1177 - 1192</div>
+              <p class="card-text mb-auto">पृथ्वीराज को 14वीं और 15वीं शताब्दी के प्रारंभिक संस्कृत विवरण औसत दर्जे 
+                के असफल राजा के रूप में प्रस्तुत करते हैं, जो केवल एक विदेशी राजा के खिलाफ अपनी हार के लिए यादगार था।[17] जैन लेखकों द्वारा लिखे गए प्रबन्ध-चिंतामणि </p>
+              <a href="https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%83%E0%A4%A5%E0%A5%8D%E0%A4%B5%E0%A5%80%E0%A4%B0%E0%A4%BE%E0%A4%9C
+              _%E0%A4%9A%E0%A5%8C%E0%A4%B9%E0%A4%BE%E0%A4%A8">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" src="raje1.jpg"  width="200PX" height="300PX" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: rgb(250, 229, 158);">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">King</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#"> Maharana Pratap</a>
+              </h3>
+              <div class="mb-1 text-muted"> 9 May 1540 - 19 January 1597</div>
+              <p class="card-text mb-auto">प्रताप सिंह पहिला, जे राजपूत राजपूत महाराणा प्रताप म्हणून प्रसिद्ध आहे (सी. ९ मे १५४० - १९ जानेवारी १५९७),राजपूत राजपूत राजपूत 
+                हे सिसोदिया घराण्यातील मेवाडचा राजपूत राजा होते.
+                राजपूत मुघल साम्राज्याच्या विस्तारवादी धोरणाचा प्रतिकार करण्यासाठी.</p>
+              <a href="https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%A3%E0%A4%BE_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BE%E0%A4%AA">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" src="raje2.jpg" width="275PX" height="280PX" alt="Card image cap">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: rgb(250, 229, 158);">
+            <div class="card-body d-flex flex-column align-items-start   text-dark" >
+              <strong class="d-inline-block mb-2 text-success">King</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Shivaji Maharaj</a>
+              </h3>
+              <div class="mb-1 text-muted">19 February 1630 - 3 April 1680</div>
+              <p class="card-text mb-auto">प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसुनोः शिवस्यैषा मुद्रा भद्राय राजते". 
+                 ज्याप्रमाणे प्रतिपदेचा चंद्र वाढत जातो आणि साऱ्या विश्वात वंदनीय होतो,
+                 तशीच शहाजींचा पुत्र शिवाजींची ही मुद्रा व तिचा लौकिक वाढत ".</p>
+              <a href="https://en.wikipedia.org/wiki/Shivaji">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" src="Shivaji_Maharaj 1.jpg" width="200PX" height="280PX" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- <div class="container-fluid mt-3">
+        <h3>Carousel Example</h3>
+        <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+      </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris...
+          </p>
+        </div>
+       <!-- <div class="col-sm-4">
+          <h3>Column 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris...
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris...
+          </p>
+        </div>
+      </div>
+    </div>
+
+    Three columns of text below the carousel
+    <div class="container-fluid" >
+    <div class="row">
+     <div class="col-lg-4 ">
+       <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+       <h2>Heading</h2>
+       <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+       <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+     </div><!-- /.col-lg-4 -->
+     <!--<div class="col-lg-4">
+       <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+       <h2>Heading</h2>
+       <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+       <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+     </div><!-- /.col-lg-4 -->
+     <!--<div class="col-lg-4">
+       <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+       <h2>Heading</h2>
+       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+       <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+     </div><!-- /.col-lg-4 -->
+   </div><!-- /.row -->
+    </div>
+  </body>
+</html>
